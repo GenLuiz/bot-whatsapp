@@ -15,7 +15,7 @@ public class HelloController {
     @Value("${authToken}")
     public String AUTH_TOKEN;
 
-    @RequestMapping("/")
+    @RequestMapping("/hello")
     public String index() {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Message message = Message.creator(

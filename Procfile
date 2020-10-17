@@ -1,1 +1,1 @@
-web: java -jar target/bot-whatsapp-1.0.jar
+web: java -jar target/bot-whatsapp-1.0.jar -Dsid=$sid -DauthToken=$authToken
